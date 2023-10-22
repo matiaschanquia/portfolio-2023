@@ -23,6 +23,9 @@
 	cursor: pointer;
 	transform: scale(1);
 	transition: transform .2s ease-out;
+	background-color: transparent;
+	border: none;
+	color: #fff;
 }
 
 .like-btn.active {

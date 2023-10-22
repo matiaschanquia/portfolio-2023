@@ -25,7 +25,7 @@
 	overflow-wrap: break-word;
 }
 
-.content-header > .title > span {
+.content-header > .title > .strong {
 	font-weight: 700;
 }
 

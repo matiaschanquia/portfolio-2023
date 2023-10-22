@@ -43,9 +43,9 @@ const Footer = () => {
 		<footer className="footer">
 			<div className="mensaje-like">
 				Deja tu me gusta <ion-icon name="arrow-forward-outline"></ion-icon> 
-				<div className="like-btn active" onClick={handleClick} ref={likeRef}>
+				<button className="like-btn active" onClick={handleClick} ref={likeRef}>
 					<ion-icon name="heart-outline"></ion-icon>
-				</div>
+				</button>
 			</div>
 			<p>
 				&copy; Copyright Matias Chanquia - {getCurrentYear()}
