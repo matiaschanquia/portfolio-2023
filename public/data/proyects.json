@@ -1,3 +1,42 @@
 [
-	
+	{
+		"id": 1,
+		"title": "Libro Lens",
+		"description": "Web app con filtros de búsqueda de determinados libros y guardado en una lista por leer.",
+		"github": "https://github.com/matiaschanquia/libro-lens",
+		"deploy": "https://librolens.netlify.app",
+		"preview": "/proyects/libro-lens.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Carrito App",
+		"description": "Web app con posibilidad de añadir productos al carrito, ver esos productos con el precio total, quitarlos y enviar un mensaje por wsp.",
+		"github": "https://github.com/matiaschanquia/carrito-app",
+		"deploy": "https://appcarrito.netlify.app/",
+		"preview": "/proyects/carrito-app.png"
+	},
+	{
+		"id": 3,
+		"title": "Promedio de notas",
+		"description": "Web app para calcular el promedio de una cantidad dada de notas.",
+		"github": "https://github.com/matiaschanquia/promedio-notas",
+		"deploy": "https://promedio-notas.netlify.app",
+		"preview": "/proyects/promedio-notas.png"
+	},
+	{
+		"id": 4,
+		"title": "Tragos App",
+		"description": "Web app para buscar tragos o ingredientes, con detalles de cada trago.",
+		"github": "https://github.com/matiaschanquia/tragos-app",
+		"deploy": "https://matiaschanquia.github.io/tragos-app",
+		"preview": "/proyects/tragos-app.png"
+	},
+	{
+		"id": 5,
+		"title": "Todo App",
+		"description": "Web app para crear una lista de por hacer, con posibilidad de editar cada \"todo\" o eliminarlo.",
+		"github": "https://github.com/matiaschanquia/to-do-app",
+		"deploy": "https://todo-app-chanquia.netlify.app",
+		"preview": "/proyects/todo-app.png"
+	}
 ]

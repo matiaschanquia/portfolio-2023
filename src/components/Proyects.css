@@ -1,0 +1,29 @@
+
+.proyects {
+	padding: 50px 0;
+}
+
+.content-proyects {
+	font-size: 1rem;
+	width: 90%;
+	max-width: var(--width-principal);
+	margin: 0 auto;
+	font-family: 'Lexend', sans-serif;
+}
+
+.content-proyects > h2 {
+	font-size: 2.4em;
+	margin-bottom: 20px;
+}
+
+.container-proyects {
+	display: grid;
+	grid-auto-rows: minmax(160px, auto);
+	gap: 20px;
+}
+
+@media screen and (width < 630px) {
+	.content-proyects {
+		font-size: .87rem;
+	}
+}

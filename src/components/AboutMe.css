@@ -75,7 +75,7 @@
 	filter: invert(100%);
 }
 
-.content-about-me > .primer-fila > .container-redes > a:hover {
+.content-about-me > .primer-fila > .container-redes a:hover {
 	box-shadow: 0 2px 8px 2px #878787bc;
 }
 
@@ -181,7 +181,7 @@
 		grid-template-columns: 1fr;
 	}
 	.content-about-me {
-		font-size: .8rem;
+		font-size: .87rem;
 	}
 	.list > li > span {
 		max-width: 160px;

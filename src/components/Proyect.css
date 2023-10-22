@@ -1,0 +1,57 @@
+
+.container-proyect {
+	display: grid;
+	grid-template-columns: .6fr 1fr;
+	gap: 30px;
+}
+
+.container-proyect > .container-preview-proyect {
+	border: 2px solid #000;
+}
+
+.container-proyect > .container-preview-proyect > img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+.container-proyect > .container-data-proyect {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.container-proyect > .container-data-proyect > h2 {
+	font-size: 1.6em;
+}
+
+.container-proyect > .container-data-proyect > .deploy-github {
+	flex-grow: 1;
+	display: flex;
+	align-items: flex-end;
+}
+
+.container-proyect > .container-data-proyect > .deploy-github img {
+	margin-right: 10px;
+	width: 40px;
+}
+
+@media screen and (width < 750px) {
+	.container-proyect {
+		grid-template-columns: .8fr 1fr;
+	}
+}
+
+@media screen and (width < 630px) {
+	.container-proyect {
+		grid-template-columns: .9fr 1fr;
+		font-size: .87rem;
+	}
+}
+
+@media screen and (width < 500px) {
+	.container-proyect {
+		grid-template-columns: 1fr;
+	}
+}
