@@ -180,4 +180,10 @@
 	.content-about-me > .primer-fila {
 		grid-template-columns: 1fr;
 	}
+	.content-about-me {
+		font-size: .8rem;
+	}
+	.list > li > span {
+		max-width: 160px;
+	}
 }
