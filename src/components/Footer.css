@@ -1,0 +1,49 @@
+
+.footer {
+	padding: 20px 8px;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	font-family: 'Lexend', sans-serif;
+	font-size: .9rem;
+}
+
+.mensaje-like {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	justify-content: center;
+}
+
+.mensaje-like > ion-icon {
+	font-size: 20px;
+}
+
+.like-btn {
+	cursor: pointer;
+	transform: scale(1);
+	transition: transform .2s ease-out;
+}
+
+.like-btn.active {
+	animation: alternate infinite agrandamiento 1s;
+	animation-timing-function: ease-out;
+}
+
+.like-btn > ion-icon {
+	margin-bottom: -2px;
+	font-size: 38px;
+}
+
+.footer > p {
+	margin-top: 20px;
+}
+
+@keyframes agrandamiento {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.2);
+	}
+}
