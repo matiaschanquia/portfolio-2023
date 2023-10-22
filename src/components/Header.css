@@ -1,0 +1,87 @@
+.header {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content-header {
+	width: 90%;
+	max-width: var(--width-principal);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1rem;
+	gap: 10px;
+	margin: 0 auto;
+}
+
+.content-header > .title {
+	font-size: 7.5em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Gabarito', sans-serif;
+	line-height: .8;
+	overflow-wrap: break-word;
+}
+
+.content-header > .title > span {
+	font-weight: 700;
+}
+
+.content-header > ion-icon {
+	font-size: 30px;
+}
+
+.content-header > .about {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.content-header > .about > h1 {
+	text-transform: uppercase;
+	font-family: 'Cairo', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1;
+}
+
+.content-header > .about > h2 {
+	font-family: 'Josefin Slab', serif;
+	background-color: #000;
+	color: #fff;
+	padding: 6px 8px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+@media screen and (width < 1130px) {
+ 	.content-header {
+		font-size: .8rem;
+	}
+}
+
+@media screen and (width < 900px) {
+ 	.content-header {
+		font-size: .7rem;
+	}
+}
+
+@media screen and (width < 800px) {
+ 	.content-header {
+		flex-direction: column;
+	}
+}
+
+@media screen and (width < 550px) {
+	.content-header > .title {
+		font-size: 6em;
+	}
+}
+
+@media screen and (width < 450px) {
+	.content-header > .title {
+		font-size: 4.5em;
+	}
+}

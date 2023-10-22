@@ -1,0 +1,46 @@
+{
+	"hard": [
+		{
+			"id": 1,
+			"logo": "/logos/html.png",
+			"text": "HTML"
+		},
+		{
+			"id": 2,
+			"logo": "/logos/css.png",
+			"text": "CSS"
+		},
+		{
+			"id": 3,
+			"logo": "/logos/javascript.png",
+			"text": "JavaScript"
+		},
+		{
+			"id": 4,
+			"logo": "/logos/react.png",
+			"text": "React"
+		}
+	],
+	"hardText": [
+		{
+			"id": 1,
+			"text": "Responsive design"
+		},
+		{
+			"id": 2,
+			"text": "Resolución de problemas"
+		},
+		{
+			"id": 3,
+			"text": "Buenas prácticas de SEO"
+		},
+		{
+			"id": 4,
+			"text": "Aprendizaje continuo"
+		},
+		{
+			"id": 5,
+			"text": "Web responsive"
+		}
+	]
+}

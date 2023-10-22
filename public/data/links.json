@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"red": "linkedin",
+		"text": "@matias-chanquia",
+		"logo": "/logos/logo-linkedin.svg",
+		"link": "https://www.linkedin.com/in/matias-chanquia/"
+	},
+	{
+		"id": 2,
+		"red": "github",
+		"text": "@matiaschanquia",
+		"logo": "/logos/logo-github.svg",
+		"link": "https://github.com/matiaschanquia"
+	},
+	{
+		"id": 3,
+		"red": "mail",
+		"text": "matiaschanquianahuel@gmail.com",
+		"logo": "/logos/logo-mail.svg",
+		"link": "mailto:matiaschanquianahuel@gmail.com"
+	}
+]

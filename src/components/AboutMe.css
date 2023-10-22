@@ -1,0 +1,183 @@
+
+.about-me {
+	padding: 100px 0;
+}
+
+.content-about-me {
+	width: 90%;
+	margin: 0 auto;
+	max-width: var(--width-principal);
+	font-family: 'Lexend', sans-serif;
+	font-size: 1rem;
+}
+
+.content-about-me > .primer-fila {
+	display: grid;
+	grid-template-columns: .55fr 1fr 1fr;
+}
+
+.content-about-me > .primer-fila > div {
+	border: 1px solid rgba(126, 126, 126, 0.257);
+}
+
+.content-about-me > .primer-fila > .container-photo-me,
+.content-about-me > .primer-fila > .about-me-text {
+	grid-row: span 2;
+}
+
+.content-about-me > .primer-fila > .container-photo-me > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content-about-me > .primer-fila > .about-me-text {
+	padding: 20px;
+}
+
+.about-me-text > p {
+	font-size: 1.1em;
+	margin: 10px 0;
+}
+
+.about-me-text > .name {
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+.about-me-text > .name > span {
+	font-weight: 900;
+}
+
+.content-about-me > .primer-fila > .container-redes {
+	padding: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-about-me > .primer-fila > .container-redes a {
+	display: inline-flex;
+	align-items: center;
+	margin: 5px;
+	gap: 5px;
+	font-size: .8em;
+	border-radius: 8px;
+	padding: 6px 8px;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	transition: box-shadow .1s ease-in-out;
+}
+
+.content-about-me > .primer-fila > .container-redes img {
+	width: 25px;
+	filter: invert(100%);
+}
+
+.content-about-me > .primer-fila > .container-redes > a:hover {
+	box-shadow: 0 2px 8px 2px #878787bc;
+}
+
+.content-about-me > .primer-fila > .container-habilidades,
+.content-about-me > .segunda-fila > .container-educacion,  
+.content-about-me > .segunda-fila > .container-experiencia {
+	padding: 16px;
+}
+
+.subtitle {
+	font-size: 1.6em;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.container-habilidades > .skills-logos {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.container-habilidades > .skills-logos > img {
+	width: 50px;
+}
+
+.container-habilidades > .skills-texts {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+}
+
+.container-habilidades > .skills-texts > li {
+	width: calc(50% - 2px);
+	font-size: .9em;
+	display: flex;
+	align-items: center;
+}
+
+.container-habilidades > .skills-texts > li > ion-icon {
+	font-size: 15px;
+}
+
+.content-about-me > .segunda-fila {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.content-about-me > .segunda-fila > div {
+	border: 1px solid rgba(126, 126, 126, 0.257);
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.list > li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.list > li > span {
+	width: 90%;
+	max-width: 200px;
+}
+
+.list > li > div > p:nth-child(2) {
+	font-weight: 700;
+}
+
+@media screen and (width < 1070px) {
+	.content-about-me > .primer-fila {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (width < 950px) {
+	.content-about-me > .segunda-fila {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (width < 750px) {
+	.content-about-me > .primer-fila > .container-redes, 
+	.content-about-me > .primer-fila > .container-habilidades {
+		grid-column: span 2;
+	}
+}
+
+@media screen and (width < 630px) {
+	.content-about-me > .primer-fila > .container-redes, 
+	.content-about-me > .primer-fila > .container-habilidades {
+		grid-column: auto;
+	}
+	.content-about-me > .primer-fila {
+		grid-template-columns: 1fr;
+	}
+}
